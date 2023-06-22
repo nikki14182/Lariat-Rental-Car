@@ -17,7 +17,7 @@ In this project, I included 2 strategies that could be utilized to improve reven
 You'll also see other details about the renter and the branch location.
   price_of_rental: This column calculates the price of each vehicle's transaction based on rental length and price per day.
   number_of_times_car_rented: This column calculates the number of times a vehicle was rented.
-  >13: This calculates whether or not a vehicle was rented over 13 times. If it was, the cell is marked as true, otherwise it is false.
+  greater_than_13: This calculates whether or not a vehicle was rented over 13 times. If it was, the cell is marked as true, otherwise it is false.
   rental-price_doubled: This column calculates the rental price. By using the price found in the price_of_rental cell and multiplying it by 2.
 
 4 branch location: This worksheet contains information about each local branch of Lariat.
